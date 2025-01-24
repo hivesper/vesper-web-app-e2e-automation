@@ -1,0 +1,12 @@
+{
+    "Single Widget": {
+        "workspaceName": "Single Widget",
+        "mainCategoryWidget": null,
+        "subCategoryWidget": ["Prices"]
+    },
+    "No Widget": {
+        "workspaceName": "No Widget",
+        "mainCategoryWidget": null,
+        "subCategoryWidget": null
+    }
+}

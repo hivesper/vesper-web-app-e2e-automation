@@ -1,0 +1,14 @@
+{
+    "Valid login": {
+        "role": "user",
+        "expectedTitle": "Dashboard - Vesper"
+    },
+    "Invalid email": {
+        "username": "testpassword@vesper.com",
+        "errorMessage": "We can't find a user with that e-mail address."
+    },
+    "Invalid login":{
+        "username":"user@vesperstaging.com",
+        "password":"test1234"
+    }
+}

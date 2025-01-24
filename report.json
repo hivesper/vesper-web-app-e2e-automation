@@ -1,0 +1,150 @@
+{
+  "config": {
+    "configFile": "/Users/sridharsekar/Documents/Vesper Projects/vesper-web-app-automation/playwright.config.js",
+    "rootDir": "/Users/sridharsekar/Documents/Vesper Projects/vesper-web-app-automation/tests",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "json",
+        {
+          "outputFile": "report.json"
+        }
+      ],
+      [
+        "html",
+        {
+          "open": "on-failure"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "/Users/sridharsekar/Documents/Vesper Projects/vesper-web-app-automation/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "/Users/sridharsekar/Documents/Vesper Projects/vesper-web-app-automation/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "tests/**/*.js"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.49.0",
+    "workers": 5,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "CreateWorkspace.spec.js",
+      "file": "CreateWorkspace.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Create Workspace Tests",
+          "file": "CreateWorkspace.spec.js",
+          "line": 7,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Create workspace - Verify the user is able to create a new workspace by selecting a single widget",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 17236,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "User: user@vesperstaging.com, Password: ScaStaTestUser$01933-!_\n"
+                        },
+                        {
+                          "text": "Workspace selector in func: locator('[data-name=\"dashboard-tab-Single Widget\"]')\n"
+                        },
+                        {
+                          "text": "Workspace \"Single Widget\" not found or not visible.\n"
+                        },
+                        {
+                          "text": "Workspace visible is -------  \u001b[33mfalse\u001b[39m\n"
+                        },
+                        {
+                          "text": "locator('[data-name=\"dashboard-tab-Single Widget\"]')\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-01-24T10:41:25.959Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/sridharsekar/Documents/Vesper Projects/vesper-web-app-automation/test-results/CreateWorkspace-Create-Wor-1e67c-y-selecting-a-single-widget-chromium/test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/sridharsekar/Documents/Vesper Projects/vesper-web-app-automation/test-results/CreateWorkspace-Create-Wor-1e67c-y-selecting-a-single-widget-chromium/video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/sridharsekar/Documents/Vesper Projects/vesper-web-app-automation/test-results/CreateWorkspace-Create-Wor-1e67c-y-selecting-a-single-widget-chromium/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "693319e4f05a9be00712-bee0e3556c98976634b7",
+              "file": "CreateWorkspace.spec.js",
+              "line": 9,
+              "column": 10
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2025-01-24T10:41:25.734Z",
+    "duration": 18226.760000000002,
+    "expected": 1,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

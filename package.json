@@ -1,0 +1,23 @@
+{
+  "name": "vesper-web-app-automation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "npx playwright install",
+    "test": "npx playwright test",
+    "report": "npx playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "@types/node": "^22.10.0",
+    "@zerostep/playwright": "^0.1.5",
+    "auto-playwright": "^1.16.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7"
+  }
+}
