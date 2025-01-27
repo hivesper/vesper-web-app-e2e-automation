@@ -6,7 +6,7 @@ const testData = require('../testdata/CreateWorkspace.json');
 
 test.describe('Create Workspace Tests', () => {
 
-    test.only('Create workspace - Verify the user is able to create a new workspace by selecting a single widget', async ({ page }) => {
+    test('Create workspace - Verify the user is able to create a new workspace by selecting a single widget', async ({ page }) => {
         const poManager = new POManager(page);
         const loginPage = poManager.getLoginPage();
         const newWorkspacePage = poManager.getNewWorkspacePage();
